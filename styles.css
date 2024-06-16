@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDE9;
+}
+
+header {
+    background-color: #f3f4f7;
+    color: white;
+    padding: 3em 0;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;  
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #014F86;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section.about, section.projects {
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fff;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about img {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.about h2, .projects h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #e4e4e4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+ul ul {
+    margin: 10px 0 10px 20px;
+    padding: 0;
+    list-style-type: disc;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+.header-title {
+    text-align: center; /* Alignement centré du texte */
+    color: #333; /* Couleur du texte */
+    font-size: 2em; /* Taille de la police */
+    margin: 20px 0; /* Marge supérieure et inférieure */
+}
+
+.project-image {
+    width: 150px;
+    height: 150px;
+}
+
+.project-details {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment small {
+    display: block;
+    margin-top: 10px;
+    color: #888;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+form {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+form input, form textarea, form select, form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
