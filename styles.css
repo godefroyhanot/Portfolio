@@ -95,10 +95,10 @@ ul ul {
 }
 
 .header-title {
-    text-align: center; /* Alignement centré du texte */
-    color: #333; /* Couleur du texte */
-    font-size: 2em; /* Taille de la police */
-    margin: 20px 0; /* Marge supérieure et inférieure */
+    text-align: center;
+    color: #333; 
+    font-size: 2em; 
+    margin: 20px 0; 
 }
 
 .project-image {

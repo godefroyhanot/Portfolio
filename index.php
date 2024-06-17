@@ -15,6 +15,7 @@ include 'config.php';
             <ul>
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="portfolio.php">Portfolio</a></li>
+                <li><a href="login.php" class="admin-icon">Admin</a></li>
             </ul>
         </nav>
     </header>
