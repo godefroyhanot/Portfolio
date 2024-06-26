@@ -7,6 +7,16 @@ include 'config.php';
 <head>
     <title>Mon Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <header>
@@ -15,14 +25,14 @@ include 'config.php';
             <ul>
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="portfolio.php">Portfolio</a></li>
-                <li><a href="login.php" class="admin-icon">Admin</a></li>
+                <li><a href="login.php">Admin</a></li>
             </ul>
         </nav>
     </header>
     <section class="about">
         <img src="images/photo-nws.JPEG" alt="Photo">
         <h2>À propos de moi</h2>
-        <p>Bienvenue sur mon site portfolio ! Je m'appelle Godefroy, 
+        <p class="about">Bienvenue sur mon site portfolio ! Je m'appelle Godefroy, 
             j'ai 22 ans et je suis passionné par le monde du digital ! 
             Mon parcours a débuté avec un Bac Pro Technicien d'études du bâtiment, mais après un an, j'ai décidé d'arrêter, 
             car ce domaine ne me passionnait pas. Actuellement étudiant à la Normandie Web School, 
