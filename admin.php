@@ -1,6 +1,7 @@
 <?php
 session_start();
-if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+
+if ($_SESSION['admin_logged_in'] == false) {
     header('Location: login.php');
     exit;
 }

@@ -2,9 +2,11 @@
 session_start();
 include 'config.php';
 
+
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+    $username = $_POST['username'] ?? '';
+    $password = $_POST['password'] ?? '';
 
     $admin_username = 'godefroy';
     $admin_password = '@godefroy!';
@@ -13,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ($username == $admin_username && $password == $admin_password) {
         $_SESSION['admin_logged_in'] = true;
         $_SESSION['admin_id'] = $admin_id; 
-        header('Location: admin.php');
+        header("Location: admin.php");
         exit;
     } else {
         $error = 'Nom d\'utilisateur ou mot de passe incorrect';
