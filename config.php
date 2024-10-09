@@ -3,10 +3,8 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-$host = 'localhost';
-$db = 'portfolio';
-$user = 'root';
-$pass = '';
+$host = 'localhost'; $db = 'portfolio_db'; $user = 'root'; $pass = 
+'godefroydu76';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=utf8";
 $options = [
