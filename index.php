@@ -33,7 +33,7 @@ include 'config.php';
         <img src="images/photo-nws.JPEG" alt="Photo">
         <h2>À propos de moi</h2>
         <p class="about">Bienvenue sur mon site portfolio ! Je m'appelle Godefroy, 
-            j'ai 22 ans et je suis passionné par le monde du digital ! 
+            j'ai 23 ans et je suis passionné par le monde du digital ! 
             Mon parcours a débuté avec un Bac Pro Technicien d'études du bâtiment, mais après un an, j'ai décidé d'arrêter, 
             car ce domaine ne me passionnait pas. Actuellement étudiant à la Normandie Web School, 
             je cherche une alternance en tant que développeur web. Sur ce site, 
@@ -49,9 +49,13 @@ include 'config.php';
         </ul>
         <h4>Hard Skills</h4>
         <ul>
-            <li>HTML/CSS</li>
             <li>Wordpress/Elementor</li>
-            <li>PHP/MySQL</li>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>Symfony</li>
+            <li>React</li>
+            <li>SQL</li>
             <li>Git/Github</li>
         </ul>
         <h3>Expériences Professionnelles</h3>
@@ -80,18 +84,8 @@ include 'config.php';
             <li>
                 <h4>Web School, Développement Web, 2023 - Présent</h4>
                 <ul>
-                    <li>Apprendre les différents outils Adobe : Photoshop, Illustrator et Indesign</li>
-                    <li>Apprendre à construire un site internet en HTML/CSS, WordPress et PHP</li>
-                    <li>Organiser et promouvoir un projet d'activité en groupe</li>
-                </ul>
-            </li>
-            
-            <li>
-                <h4>Bac Pro Technicien d'études du bâtiment, 2019 - 2020</h4>
-                <ul>
-                    <li>Apprendre les bases de SketchUp</li>
-                    <li>Construire un échafaudage en équipe</li>
-                    <li>Maths, Français et Histoire-Géographie</li>
+                <li><strong>Développement Web</strong> : WordPress, HTML/CSS, JavaScript, PHP, ReactJS, Symfony & SQL</li>
+                <li><strong>Conception Graphique</strong> : Photoshop, InDesign, Illustrator, Figma, Canva & Elementor</li>xx@
                 </ul>
             </li>
         </ul>
